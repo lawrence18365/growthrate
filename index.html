@@ -8,6 +8,9 @@
 </head>
 <body>
     <header>
+        <div class="logo">
+            <span>GR</span>
+        </div>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -20,22 +23,24 @@
 
     <main>
         <section id="hero">
-            <h1>Get All Your Sales Outreach & Client Management Done In One Place.</h1>
+            <h1>Get All Your <span class="highlight">Sales Outreach</span> & Client Management Done In One Place.</h1>
             <p>Meet GrowthRate. A simple tool to help you generate 3x more sales meetings with the same effort you are putting into any other sales software.</p>
-            <button>SEE PRICING</button>
+            <button class="cta-button">SEE PRICING</button>
         </section>
 
         <section id="features">
             <h2>We're In The Business Of Helping You Grow Your Business</h2>
-            <div class="feature">
-                <h3>Online Reviews</h3>
-                <p>Automatically follow-up with your customers and ask them to leave a review, help get rid of negative reviews and even respond to them in the one place</p>
+            <div class="feature-grid">
+                <div class="feature">
+                    <h3>Online Reviews</h3>
+                    <p>Automatically follow-up with your customers and ask them to leave a review, help get rid of negative reviews and even respond to them in the one place</p>
+                </div>
+                <div class="feature">
+                    <h3>Messaging Hub</h3>
+                    <p>Manage your messages with the one inbox from SMS, Email, Facebook Messenger, Google Messages and Instagram Direct Message</p>
+                </div>
+                <!-- Add more features here -->
             </div>
-            <div class="feature">
-                <h3>Messaging Hub</h3>
-                <p>Manage your messages with the one inbox from SMS, Email, Facebook Messenger, Google Messages and Instagram Direct Message</p>
-            </div>
-            <!-- Add more features here -->
         </section>
 
         <section id="testimonials">
@@ -53,6 +58,11 @@
     <footer>
         <p>&copy; 2024 GrowthRate. All rights reserved.</p>
     </footer>
+
+    <div id="chat-bubble" class="chat-bubble">
+        <img src="https://via.placeholder.com/40" alt="Support">
+        <span>Hi there, have a question? Text us here.</span>
+    </div>
 
     <script src="script.js"></script>
 </body>
